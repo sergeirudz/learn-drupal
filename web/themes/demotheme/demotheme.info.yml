@@ -1,0 +1,27 @@
+name: Demo Theme
+type: theme
+description: Drupal 10 Theme
+core_version_requirement: 10.x
+base theme: claro
+libraries:
+  - demotheme/global-css
+#  - demotheme/global-js
+
+#libraries-override:
+#  system/base: false
+#  classy/base: false
+
+#stylesheets-remove:
+#  - '@classy/css/components/file.css'
+#  - '@classy/css/components/messages.css'
+
+#ckeditor_stylesheets:
+#  - public/css/content.css
+
+#regions:
+#  header_top: 'Header Top'
+#  header_main: 'Header Main'
+#  header_bottom: 'Header Bottom'
+#  content: 'Content'
+#  footer: 'Footer'
+#  embedded_blocks: 'Embedded blocks'
